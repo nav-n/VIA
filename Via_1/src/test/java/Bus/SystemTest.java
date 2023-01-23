@@ -23,13 +23,13 @@ public class SystemTest extends BaseClass{
 	}
 
 	@Test(dataProvider = "data",priority = 1)
-	public void oneWayFromTextField(String data[][]) throws InterruptedException {
+	public void oneWayFromTextField(String data[]) throws InterruptedException {
 		// Step1:Clicking on FromTextField.
 		explicitWait.until(ExpectedConditions.elementToBeClickable(homePage.getBusNavBar()));
 		homePage.getBusNavBar().click();
 		explicitWait.until(ExpectedConditions.elementToBeClickable(busPage.getSearchBusButton()));
 		busPage.getFromTextBox().clear();
-		String fromPlace = data[0][1];
+		String fromPlace = data[1];
 		busPage.getFromTextBox().sendKeys(fromPlace);
 		String enteredFromValue = busPage.getFromTextBox().getAttribute("value");
 		if (fromPlace.equalsIgnoreCase("Bangalore")) {
