@@ -7,7 +7,7 @@
         <methods>
           <include name="browserTermination"/>
           <include name="browserSetUp"/>
-          <include name="oneWayFromTextField" invocation-numbers="2"/>
+          <include name="oneWayFromTextField" invocation-numbers="1"/>
         </methods>
       </class> <!-- Bus.Bus_Oneway_Place_Test -->
     </classes>

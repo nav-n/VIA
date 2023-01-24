@@ -25,7 +25,7 @@ public class Bus_Oneway_Place_Test extends BaseClass {
 	}
 
 	@Test(dataProvider = "data")
-	public void oneWayFromTextField(String data[]) throws InterruptedException {
+	public void oneWaySystemTesting(String data[]) throws InterruptedException {
 		// Step1:Clicking on FromTextField.
 		explicitWait.until(ExpectedConditions.elementToBeClickable(homePage.getBusNavBar()));
 		homePage.getBusNavBar().click();
