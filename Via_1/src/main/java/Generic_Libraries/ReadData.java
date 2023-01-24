@@ -205,8 +205,7 @@ public class ReadData {
 	}
 
 	// reading month from excel
-	public static String readMonthFromExcel(String sheetName, int row, int col) {
-		String dat = ReadData.fromExcel(sheetName, row, col);
+	public static String readMonthFromExcel(String dat) {
 
 		String month = null;
 		String date[] = dat.split("/");
@@ -256,8 +255,7 @@ public class ReadData {
 	}
 
 	// reading day from excel
-	public static int readDayFromExcel(String sheetName, int row, int col) {
-		String dat = ReadData.fromExcel(sheetName, row, col);
+	public static int readDayFromExcel(String dat) {
 		String date[] = dat.split("/");
 		String d = date[0];
 		int day = Integer.parseInt(d);
@@ -265,8 +263,7 @@ public class ReadData {
 	}
 
 	// reading year from excel
-	public static int readyearFromExcel(String sheetName, int row, int col) {
-		String dat = ReadData.fromExcel(sheetName, row, col);
+	public static int readyearFromExcel(String dat) {
 		String date[] = dat.split("/");
 		String y = date[2];
 		int year = Integer.parseInt(y);

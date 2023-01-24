@@ -70,8 +70,10 @@ public class SystemTest extends BaseClass {
 		action = new Actions(driver);
 		explicitWait.until(ExpectedConditions.visibilityOf(busPage.getSearchBusButton()));
 		// date from calender popup.
-		int day = ReadData.dayFromSystem(8);
-		String month = ReadData.monthFromSystem(0);
+		
+		String date = data[3];
+		int day = ReadData.readDayFromExcel(date);
+		String month = ReadData.readMonthFromExcel(date);
 		homePage.getDepartureCalenderTextBox().click();
 		System.out.println(day + "-" + month);
 		for (;;) {
