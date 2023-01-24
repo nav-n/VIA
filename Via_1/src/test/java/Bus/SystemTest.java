@@ -1,6 +1,7 @@
 package Bus;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -13,12 +14,11 @@ import org.testng.annotations.Test;
 import Generic_Libraries.BaseClass;
 import Generic_Libraries.ReadData;
 
-public class SystemTest extends BaseClass{
-	
-	
+public class SystemTest extends BaseClass {
+
 	@DataProvider()
-	public String[][] data(){
-		String info[][]=ReadData.multipleDataFromExcel("Naveen","Bus_Oneway_Place");
+	public String[][] data() {
+		String info[][] = ReadData.multipleDataFromExcel("Naveen", "Bus_Oneway_Place");
 		return info;
 	}
 
@@ -48,7 +48,7 @@ public class SystemTest extends BaseClass{
 		Reporter.log("Data Entered Successfully in fromTextField in homePage", true);
 		
 		//To Place
-		String toPlace = ReadData.fromExcel("Naveen", 20, 2);
+		String toPlace = data[2];
 		busPage.getToTextBox().clear();
 		busPage.getToTextBox().sendKeys(toPlace);
 		String enteredToValue = busPage.getToTextBox().getAttribute("value");
@@ -114,23 +114,55 @@ public class SystemTest extends BaseClass{
 		Reporter.log("Selected the seat",true);*/
 		Select select = new Select(busResultPage.getBoardingPoint());
 		select.selectByIndex(5);
-		Reporter.log("Selected the boarding point",true);
+		Reporter.log("Selected the boarding point",true);		
+		try {
+			WebElement droppingPoint = driver.findElement(By.xpath("//h3[text()='Choose Dropping Point']"));
+			Select selectDroppingPoint = new Select(busResultPage.getDroppingPoint());
+			droppingPoint.click();
+			selectDroppingPoint.selectByIndex(3);
+		}catch(NoSuchElementException e) {
+			
+		}
 		busResultPage.getProceedWithSeatsButton().click();
-		
-		
 		//User Details
 		Select selectTitle = new Select(confirmpage.getTitleDropdown());
-		selectTitle.selectByIndex(1);
-		confirmpage.getAdultFirstName().sendKeys(ReadData.fromExcel("Naveen", 20, 4));
-		confirmpage.getAdultAge().sendKeys(ReadData.fromExcel("Naveen", 20, 5));
-		confirmpage.getMobileNumber().sendKeys(ReadData.fromExcel("Naveen", 20, 6));
-		confirmpage.getEmailId().sendKeys(ReadData.fromExcel("Naveen", 20, 7));
+		System.out.println(data[3]);
+		System.out.println(data[4]);
+		if(data[4].equalsIgnoreCase("mr")) {
+			selectTitle.selectByIndex(1);
+		}else if(data[4].equalsIgnoreCase("mrs")) {
+			selectTitle.selectByIndex(2);
+		}else if(data[4].equalsIgnoreCase("miss")) {
+			selectTitle.selectByIndex(3);
+		}
+		String actualName = data[5];
+		confirmpage.getAdultFirstName().sendKeys(actualName);
+		String expectedName = confirmpage.getAdultFirstName().getAttribute("value");
+		Assert.assertEquals(actualName, expectedName,"Invalid name");
+		Reporter.log("firstname entered correctly");
+		String actualAge = data[6];
+		confirmpage.getAdultAge().sendKeys(actualAge);
+		String expectedAge = confirmpage.getAdultAge().getAttribute("value");
+		Assert.assertEquals(actualAge, expectedAge,"Invalid age");
+		Reporter.log("Age entered correctly");
+		String phoneNumber = data[7];
+		confirmpage.getMobileNumber().sendKeys(phoneNumber);
+		String expectedphoneNumber = confirmpage.getMobileNumber().getAttribute("value");
+		Assert.assertEquals(phoneNumber, expectedphoneNumber,"Invalid phoneNumber");
+		Reporter.log("phoneNumber entered correctly");
+		String actualEmail = data[8];
+		confirmpage.getEmailId().sendKeys(actualEmail);		
+		String expectedEmail = confirmpage.getEmailId().getAttribute("value");
+		Assert.assertEquals(actualEmail, expectedEmail,"Invalid EmailID");
+		Reporter.log("Email entered correctly");
 		confirmpage.getTermsCheckBox().click();
 		confirmpage.getProceedToBookingButton().click();
+		Reporter.log("Clicked on Proceed button");
 		explicitWait.until(ExpectedConditions.elementToBeClickable(confirmpage.getConfirmProceedbutton()));
 		confirmpage.getConfirmProceedbutton().click();
+		Reporter.log("clicked on confirm button");
 		explicitWait.until(ExpectedConditions.elementToBeClickable(confirmpage.getPayNowButton()));
-		String paymentType = ReadData.fromExcel("Naveen", 20, 8);
+		String paymentType = data[8];
 		if (paymentType.equalsIgnoreCase("netbanking")) {
 			confirmpage.getNetBankingPayment().click();
 		} else if (paymentType.equalsIgnoreCase("creditcard")) {
@@ -142,9 +174,10 @@ public class SystemTest extends BaseClass{
 		} else if (paymentType.equalsIgnoreCase("UPI")) {
 			confirmpage.getUpiPayment().click();
 		}
-		confirmpage.getPayNowButton().click();
+		confirmpage.getPayNowButton().click();	
+		Reporter.log("clicked on pay now button");
+		}
 		
-		
-	}
+	
 
 }

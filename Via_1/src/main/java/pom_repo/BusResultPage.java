@@ -27,6 +27,14 @@ public class BusResultPage {
 	private WebElement availableSeat;
 	@FindBy(xpath = "//h3[text()='Choose Boarding Point']/..//select[contains(@class,'selectPickup selt-option')]")
 	private WebElement boardingPoint;
+	@FindBy(xpath = "//select[@class='selectDrop selt-option']")
+	private WebElement droppingPoint;
+	@FindBy(xpath = "//h3[text()='Choose Dropping Point']")
+	private WebElement droppingPointText;
+
+	public WebElement getDroppingPoint() {
+		return droppingPoint;
+	}
 
 	public WebElement getAvailableSeat() {
 		return availableSeat;
@@ -58,5 +66,9 @@ public class BusResultPage {
 
 	public WebElement getProceedWithSeatsButton() {
 		return proceedWithSeatsButton;
+	}
+
+	public WebElement getDroppingPointText() {
+		return droppingPointText;
 	}
 }
