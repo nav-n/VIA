@@ -160,12 +160,12 @@ public class ReadData {
 			}
 			
 			// Print the array to check the data
-			for (int k = 0; k < data.length; k++) {
+			/*for (int k = 0; k < data.length; k++) {
 				for (int l = 0; l < data[k].length; l++) {
 					System.out.print(data[k][l] + " ");
 				}
 				System.out.println();
-			}
+			}*/
 			// Close the file input stream
 			fis.close();
 		} catch (Exception e) {

@@ -5,15 +5,21 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import Generic_Libraries.*;
 import pom_repo.HomePage;
 
-public class Bus_Oneway_002Test extends BaseClass {
+public class Bus_Oneway_002_Test extends BaseClass {
+	@DataProvider()
+	public String[][] data() {
+		String info[][] = ReadData.multipleDataFromExcel("Naveen", "Bus_Oneway_002_Test");
+		return info;
+	}
 
-	@Test
-	public void negativeFromTextField() {
+	@Test(dataProvider = "data")
+	public void negativeFromTextField(String data[]) {
 		explicitWait.until(ExpectedConditions.elementToBeClickable(homePage.getBusNavBar()));
 		homePage.getBusNavBar().click();
 		explicitWait.until(ExpectedConditions.elementToBeClickable(busPage.getSearchBusButton()));

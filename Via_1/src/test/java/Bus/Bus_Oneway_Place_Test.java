@@ -1,11 +1,13 @@
 package Bus;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.DataProvider;
@@ -13,16 +15,16 @@ import org.testng.annotations.Test;
 
 import Generic_Libraries.BaseClass;
 import Generic_Libraries.ReadData;
+import pom_repo.*;
 
-public class SystemTest extends BaseClass {
-
+public class Bus_Oneway_Place_Test extends BaseClass {
 	@DataProvider()
 	public String[][] data() {
-		String info[][] = ReadData.multipleDataFromExcel("Naveen", "Bus_Oneway_Place");
+		String info[][] = ReadData.multipleDataFromExcel("Naveen", "Bus_Oneway_Place_Test");
 		return info;
 	}
 
-	@Test(dataProvider = "data",priority = 1)
+	@Test(dataProvider = "data")
 	public void oneWayFromTextField(String data[]) throws InterruptedException {
 		// Step1:Clicking on FromTextField.
 		explicitWait.until(ExpectedConditions.elementToBeClickable(homePage.getBusNavBar()));
@@ -176,6 +178,7 @@ public class SystemTest extends BaseClass {
 		} else if (paymentType.equalsIgnoreCase("UPI")) {
 			confirmpage.getUpiPayment().click();
 		}
+		explicitWait.until(ExpectedConditions.elementToBeClickable(confirmpage.getPayNowButton()));
 		confirmpage.getPayNowButton().click();	
 		Reporter.log("clicked on pay now button");
 		}

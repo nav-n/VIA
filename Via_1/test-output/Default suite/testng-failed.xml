@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Bus.SystemTest">
+      <class name="Bus.Bus_Confirmation_008_Test">
         <methods>
           <include name="browserTermination"/>
+          <include name="oneWayFromTextField" invocation-numbers="0"/>
           <include name="browserSetUp"/>
-          <include name="oneWayFromTextField" invocation-numbers="0 1 2 3 4"/>
         </methods>
-      </class> <!-- Bus.SystemTest -->
+      </class> <!-- Bus.Bus_Confirmation_008_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

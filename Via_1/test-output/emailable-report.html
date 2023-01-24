@@ -8,68 +8,11 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">299,321</td><td></td><td></td></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">42,538</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">Bus.SystemTest</td><td><a href="#m0">oneWayFromTextField</a></td><td rowspan="2">1674477634976</td><td rowspan="2">65385</td></tr><tr class="failedeven"><td><a href="#m1">oneWayFromTextField</a></td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">Bus.SystemTest</td><td><a href="#m2">oneWayFromTextField</a></td><td rowspan="3">1674477711267</td><td rowspan="3">32978</td></tr><tr class="passedeven"><td><a href="#m3">oneWayFromTextField</a></td></tr><tr class="passedeven"><td><a href="#m4">oneWayFromTextField</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Bus.Bus_Confirmation_008_Test</td><td><a href="#m0">oneWayFromTextField</a></td><td rowspan="1">1674560378949</td><td rowspan="1">31786</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">Bus.SystemTest#oneWayFromTextField</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[Bus_Oneway_Place, Hyderabad, Bangalore, 06/02/2023, miss, Apoorve, 24, 9686117337, apoorva@gmail.com, Wallet]</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Data Entered Successfully in fromTextField in homePage<br/>Data Entered Successfully in toTextField in homePage</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.linkText: Next Day&apos; (tried for 5 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at Bus.SystemTest.oneWayFromTextField(SystemTest.java:96)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Next Day&quot;}
-  (Session info: chrome=109.0.5414.75)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-EPMHA2ST&apos;, ip: &apos;10.10.60.193&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\navee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57361}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ea2f6b07727548499c4150678a198344
-*** Element info: {Using=link text, value=Next Day}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 29 more
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Bus.SystemTest#oneWayFromTextField</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[Bus_Oneway_Place, Bangalore, Mumbai, 28/01/2023, MR, Naveen, 24, 9686117337, naveen8273@gmail.com, NetBanking]</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Data Entered Successfully in fromTextField in homePage<br/>Data Entered Successfully in toTextField in homePage<br/>Landed Succesfully to the Bus Result Page of the application<br/>Selected the boarding point<br/>firstname entered correctly<br/>Age entered correctly<br/>phoneNumber entered correctly<br/>Email entered correctly<br/>Clicked on Proceed button<br/>clicked on confirm button</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=109.0.5414.75)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-EPMHA2ST&apos;, ip: &apos;10.10.60.193&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\navee\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57004}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8bed6ae40de15bb4e02f511001cb5d50
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at Bus.SystemTest.oneWayFromTextField(SystemTest.java:177)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Bus.SystemTest#oneWayFromTextField</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[Bus_Oneway_Place, Mumbai, Hyderabad, 20/02/2023, miss, Pragathi, 22, 9686117337, pragathi@gmail.com, DebitCard]</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Data Entered Successfully in fromTextField in homePage<br/>Data Entered Successfully in toTextField in homePage<br/>Landed Succesfully to the Bus Result Page of the application<br/>Selected the boarding point<br/>firstname entered correctly<br/>Age entered correctly<br/>phoneNumber entered correctly<br/>Email entered correctly<br/>Clicked on Proceed button<br/>clicked on confirm button<br/>clicked on pay now button</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">Bus.SystemTest#oneWayFromTextField</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[Bus_Oneway_Place, Goa, Mumbai, 15/02/2023, MR, Narenthiran, 26, 9686117337, narenthiran@gmail.com, CreditCard]</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Data Entered Successfully in fromTextField in homePage<br/>Data Entered Successfully in toTextField in homePage<br/>Landed Succesfully to the Bus Result Page of the application<br/>Selected the boarding point<br/>firstname entered correctly<br/>Age entered correctly<br/>phoneNumber entered correctly<br/>Email entered correctly<br/>Clicked on Proceed button<br/>clicked on confirm button<br/>clicked on pay now button</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">Bus.SystemTest#oneWayFromTextField</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[Bus_Oneway_Place, Chennai, Goa, 01/02/2023, mr, Shashank, 23, 9686117337, shashrocky@gamail.com, UPI]</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Data Entered Successfully in fromTextField in homePage<br/>Data Entered Successfully in toTextField in homePage<br/>Landed Succesfully to the Bus Result Page of the application<br/>Selected the boarding point<br/>firstname entered correctly<br/>Age entered correctly<br/>phoneNumber entered correctly<br/>Email entered correctly<br/>Clicked on Proceed button<br/>clicked on confirm button<br/>clicked on pay now button</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">Bus.Bus_Confirmation_008_Test#oneWayFromTextField</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[Bus_Confirmation_008_Test, Bangalore, Mumbai, 29/01/2023, MR, Naveen, 24, 9686117337, naveen8273@gmail.com, NetBanking]</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Data Entered Successfully in fromTextField in homePage<br/>Data Entered Successfully in toTextField in homePage<br/>Landed Succesfully to the Bus Result Page of the application<br/>Selected the boarding point<br/>firstname entered correctly<br/>Age entered correctly<br/>phoneNumber entered correctly<br/>Email entered correctly<br/>Clicked on Proceed button<br/>clicked on confirm button<br/>clicked on pay now button</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

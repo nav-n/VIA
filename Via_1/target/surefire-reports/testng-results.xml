@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Empty Chrome Browser is launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Window is maximized]]>
+    </line>
+    <line>
+      <![CDATA[Landed Succesfully to the Home Page of the application]]>
+    </line>
+    <line>
+      <![CDATA[Data Entered Successfully in fromTextField in homePage]]>
+    </line>
+    <line>
+      <![CDATA[Data Entered Successfully in toTextField in homePage]]>
+    </line>
+    <line>
+      <![CDATA[Landed Succesfully to the Bus Result Page of the application]]>
+    </line>
+    <line>
+      <![CDATA[Selected the boarding point]]>
+    </line>
+    <line>
+      <![CDATA[firstname entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[Age entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[phoneNumber entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[Email entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Proceed button]]>
+    </line>
+    <line>
+      <![CDATA[clicked on confirm button]]>
+    </line>
+    <line>
+      <![CDATA[clicked on pay now button]]>
+    </line>
+    <line>
+      <![CDATA[Empty Chrome Browser is launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Window is maximized]]>
+    </line>
+    <line>
+      <![CDATA[Landed Succesfully to the Home Page of the application]]>
+    </line>
+    <line>
+      <![CDATA[Data Entered Successfully in fromTextField in homePage]]>
+    </line>
+    <line>
+      <![CDATA[Data Entered Successfully in toTextField in homePage]]>
+    </line>
+    <line>
+      <![CDATA[Landed Succesfully to the Bus Result Page of the application]]>
+    </line>
+    <line>
+      <![CDATA[Selected the boarding point]]>
+    </line>
+    <line>
+      <![CDATA[firstname entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[Age entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[phoneNumber entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[Email entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Proceed button]]>
+    </line>
+    <line>
+      <![CDATA[clicked on confirm button]]>
+    </line>
+    <line>
+      <![CDATA[clicked on pay now button]]>
+    </line>
+    <line>
+      <![CDATA[Empty Chrome Browser is launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Window is maximized]]>
+    </line>
+    <line>
+      <![CDATA[Landed Succesfully to the Home Page of the application]]>
+    </line>
+    <line>
+      <![CDATA[Data Entered Successfully in fromTextField in homePage]]>
+    </line>
+    <line>
+      <![CDATA[Data Entered Successfully in toTextField in homePage]]>
+    </line>
+    <line>
+      <![CDATA[Landed Succesfully to the Bus Result Page of the application]]>
+    </line>
+    <line>
+      <![CDATA[Selected the boarding point]]>
+    </line>
+    <line>
+      <![CDATA[firstname entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[Age entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[phoneNumber entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[Email entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Proceed button]]>
+    </line>
+    <line>
+      <![CDATA[clicked on confirm button]]>
+    </line>
+    <line>
+      <![CDATA[clicked on pay now button]]>
+    </line>
+    <line>
+      <![CDATA[Empty Chrome Browser is launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Window is maximized]]>
+    </line>
+    <line>
+      <![CDATA[Landed Succesfully to the Home Page of the application]]>
+    </line>
+    <line>
+      <![CDATA[Data Entered Successfully in fromTextField in homePage]]>
+    </line>
+    <line>
+      <![CDATA[Data Entered Successfully in toTextField in homePage]]>
+    </line>
+    <line>
+      <![CDATA[Landed Succesfully to the Bus Result Page of the application]]>
+    </line>
+    <line>
+      <![CDATA[Selected the boarding point]]>
+    </line>
+    <line>
+      <![CDATA[firstname entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[Age entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[phoneNumber entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[Email entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Proceed button]]>
+    </line>
+    <line>
+      <![CDATA[clicked on confirm button]]>
+    </line>
+    <line>
+      <![CDATA[clicked on pay now button]]>
+    </line>
+    <line>
+      <![CDATA[Empty Chrome Browser is launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Window is maximized]]>
+    </line>
+    <line>
+      <![CDATA[Landed Succesfully to the Home Page of the application]]>
+    </line>
+    <line>
+      <![CDATA[Data Entered Successfully in fromTextField in homePage]]>
+    </line>
+    <line>
+      <![CDATA[Data Entered Successfully in toTextField in homePage]]>
+    </line>
+    <line>
+      <![CDATA[Landed Succesfully to the Bus Result Page of the application]]>
+    </line>
+    <line>
+      <![CDATA[Selected the boarding point]]>
+    </line>
+    <line>
+      <![CDATA[firstname entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[Age entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[phoneNumber entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[Email entered correctly]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Proceed button]]>
+    </line>
+    <line>
+      <![CDATA[clicked on confirm button]]>
+    </line>
+    <line>
+      <![CDATA[clicked on pay now button]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="177891" started-at="2023-01-24T21:40:35 IST" finished-at="2023-01-24T21:43:33 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="177891" started-at="2023-01-24T21:40:35 IST" finished-at="2023-01-24T21:43:33 IST">
+      <class name="Bus.Bus_Oneway_Place_Test">
+        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:Bus.Bus_Oneway_Place_Test@6321e813]" name="browserSetUp" is-config="true" duration-ms="10117" started-at="2023-01-24T21:40:37 IST" finished-at="2023-01-24T21:40:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empty Chrome Browser is launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser Window is maximized]]>
+            </line>
+            <line>
+              <![CDATA[Landed Succesfully to the Home Page of the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method status="PASS" signature="oneWayFromTextField([Ljava.lang.String;)[pri:0, instance:Bus.Bus_Oneway_Place_Test@6321e813]" name="oneWayFromTextField" duration-ms="29034" started-at="2023-01-24T21:40:47 IST" data-provider="data" finished-at="2023-01-24T21:41:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6f330eb9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Data Entered Successfully in fromTextField in homePage]]>
+            </line>
+            <line>
+              <![CDATA[Data Entered Successfully in toTextField in homePage]]>
+            </line>
+            <line>
+              <![CDATA[Landed Succesfully to the Bus Result Page of the application]]>
+            </line>
+            <line>
+              <![CDATA[Selected the boarding point]]>
+            </line>
+            <line>
+              <![CDATA[firstname entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[Age entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[phoneNumber entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[Email entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Proceed button]]>
+            </line>
+            <line>
+              <![CDATA[clicked on confirm button]]>
+            </line>
+            <line>
+              <![CDATA[clicked on pay now button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- oneWayFromTextField -->
+        <test-method status="PASS" signature="browserTermination()[pri:0, instance:Bus.Bus_Oneway_Place_Test@6321e813]" name="browserTermination" is-config="true" duration-ms="1354" started-at="2023-01-24T21:41:16 IST" finished-at="2023-01-24T21:41:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTermination -->
+        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:Bus.Bus_Oneway_Place_Test@6321e813]" name="browserSetUp" is-config="true" duration-ms="6591" started-at="2023-01-24T21:41:17 IST" finished-at="2023-01-24T21:41:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empty Chrome Browser is launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser Window is maximized]]>
+            </line>
+            <line>
+              <![CDATA[Landed Succesfully to the Home Page of the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method status="PASS" signature="oneWayFromTextField([Ljava.lang.String;)[pri:0, instance:Bus.Bus_Oneway_Place_Test@6321e813]" name="oneWayFromTextField" duration-ms="15866" started-at="2023-01-24T21:41:24 IST" data-provider="data" finished-at="2023-01-24T21:41:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1eb2d371]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Data Entered Successfully in fromTextField in homePage]]>
+            </line>
+            <line>
+              <![CDATA[Data Entered Successfully in toTextField in homePage]]>
+            </line>
+            <line>
+              <![CDATA[Landed Succesfully to the Bus Result Page of the application]]>
+            </line>
+            <line>
+              <![CDATA[Selected the boarding point]]>
+            </line>
+            <line>
+              <![CDATA[firstname entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[Age entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[phoneNumber entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[Email entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Proceed button]]>
+            </line>
+            <line>
+              <![CDATA[clicked on confirm button]]>
+            </line>
+            <line>
+              <![CDATA[clicked on pay now button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- oneWayFromTextField -->
+        <test-method status="PASS" signature="browserTermination()[pri:0, instance:Bus.Bus_Oneway_Place_Test@6321e813]" name="browserTermination" is-config="true" duration-ms="1759" started-at="2023-01-24T21:41:40 IST" finished-at="2023-01-24T21:41:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTermination -->
+        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:Bus.Bus_Oneway_Place_Test@6321e813]" name="browserSetUp" is-config="true" duration-ms="6255" started-at="2023-01-24T21:41:42 IST" finished-at="2023-01-24T21:41:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empty Chrome Browser is launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser Window is maximized]]>
+            </line>
+            <line>
+              <![CDATA[Landed Succesfully to the Home Page of the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method status="PASS" signature="oneWayFromTextField([Ljava.lang.String;)[pri:0, instance:Bus.Bus_Oneway_Place_Test@6321e813]" name="oneWayFromTextField" duration-ms="31606" started-at="2023-01-24T21:41:48 IST" data-provider="data" finished-at="2023-01-24T21:42:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3662bdff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Data Entered Successfully in fromTextField in homePage]]>
+            </line>
+            <line>
+              <![CDATA[Data Entered Successfully in toTextField in homePage]]>
+            </line>
+            <line>
+              <![CDATA[Landed Succesfully to the Bus Result Page of the application]]>
+            </line>
+            <line>
+              <![CDATA[Selected the boarding point]]>
+            </line>
+            <line>
+              <![CDATA[firstname entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[Age entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[phoneNumber entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[Email entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Proceed button]]>
+            </line>
+            <line>
+              <![CDATA[clicked on confirm button]]>
+            </line>
+            <line>
+              <![CDATA[clicked on pay now button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- oneWayFromTextField -->
+        <test-method status="PASS" signature="browserTermination()[pri:0, instance:Bus.Bus_Oneway_Place_Test@6321e813]" name="browserTermination" is-config="true" duration-ms="1745" started-at="2023-01-24T21:42:19 IST" finished-at="2023-01-24T21:42:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTermination -->
+        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:Bus.Bus_Oneway_Place_Test@6321e813]" name="browserSetUp" is-config="true" duration-ms="6483" started-at="2023-01-24T21:42:21 IST" finished-at="2023-01-24T21:42:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empty Chrome Browser is launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser Window is maximized]]>
+            </line>
+            <line>
+              <![CDATA[Landed Succesfully to the Home Page of the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method status="PASS" signature="oneWayFromTextField([Ljava.lang.String;)[pri:0, instance:Bus.Bus_Oneway_Place_Test@6321e813]" name="oneWayFromTextField" duration-ms="27100" started-at="2023-01-24T21:42:28 IST" data-provider="data" finished-at="2023-01-24T21:42:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@500051c5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Data Entered Successfully in fromTextField in homePage]]>
+            </line>
+            <line>
+              <![CDATA[Data Entered Successfully in toTextField in homePage]]>
+            </line>
+            <line>
+              <![CDATA[Landed Succesfully to the Bus Result Page of the application]]>
+            </line>
+            <line>
+              <![CDATA[Selected the boarding point]]>
+            </line>
+            <line>
+              <![CDATA[firstname entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[Age entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[phoneNumber entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[Email entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Proceed button]]>
+            </line>
+            <line>
+              <![CDATA[clicked on confirm button]]>
+            </line>
+            <line>
+              <![CDATA[clicked on pay now button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- oneWayFromTextField -->
+        <test-method status="PASS" signature="browserTermination()[pri:0, instance:Bus.Bus_Oneway_Place_Test@6321e813]" name="browserTermination" is-config="true" duration-ms="1393" started-at="2023-01-24T21:42:55 IST" finished-at="2023-01-24T21:42:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTermination -->
+        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:Bus.Bus_Oneway_Place_Test@6321e813]" name="browserSetUp" is-config="true" duration-ms="6862" started-at="2023-01-24T21:42:56 IST" finished-at="2023-01-24T21:43:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empty Chrome Browser is launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser Window is maximized]]>
+            </line>
+            <line>
+              <![CDATA[Landed Succesfully to the Home Page of the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method status="PASS" signature="oneWayFromTextField([Ljava.lang.String;)[pri:0, instance:Bus.Bus_Oneway_Place_Test@6321e813]" name="oneWayFromTextField" duration-ms="28432" started-at="2023-01-24T21:43:03 IST" data-provider="data" finished-at="2023-01-24T21:43:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3820cfe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Data Entered Successfully in fromTextField in homePage]]>
+            </line>
+            <line>
+              <![CDATA[Data Entered Successfully in toTextField in homePage]]>
+            </line>
+            <line>
+              <![CDATA[Landed Succesfully to the Bus Result Page of the application]]>
+            </line>
+            <line>
+              <![CDATA[Selected the boarding point]]>
+            </line>
+            <line>
+              <![CDATA[firstname entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[Age entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[phoneNumber entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[Email entered correctly]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Proceed button]]>
+            </line>
+            <line>
+              <![CDATA[clicked on confirm button]]>
+            </line>
+            <line>
+              <![CDATA[clicked on pay now button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- oneWayFromTextField -->
+        <test-method status="PASS" signature="browserTermination()[pri:0, instance:Bus.Bus_Oneway_Place_Test@6321e813]" name="browserTermination" is-config="true" duration-ms="1818" started-at="2023-01-24T21:43:31 IST" finished-at="2023-01-24T21:43:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTermination -->
+      </class> <!-- Bus.Bus_Oneway_Place_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
