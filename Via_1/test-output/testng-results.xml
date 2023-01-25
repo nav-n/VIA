@@ -20,36 +20,15 @@
       <![CDATA[Landed Succesfully to the Bus Result Page of the application]]>
     </line>
     <line>
-      <![CDATA[Selected the boarding point]]>
-    </line>
-    <line>
-      <![CDATA[firstname entered correctly]]>
-    </line>
-    <line>
-      <![CDATA[Age entered correctly]]>
-    </line>
-    <line>
-      <![CDATA[phoneNumber entered correctly]]>
-    </line>
-    <line>
-      <![CDATA[Email entered correctly]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Proceed button]]>
-    </line>
-    <line>
-      <![CDATA[clicked on confirm button]]>
-    </line>
-    <line>
-      <![CDATA[clicked on pay now button]]>
+      <![CDATA[clicked on the view seats button]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42538" started-at="2023-01-24T17:09:29 IST" finished-at="2023-01-24T17:10:11 IST">
+  <suite name="Default suite" duration-ms="20397" started-at="2023-01-25T09:50:38 IST" finished-at="2023-01-25T09:50:59 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42538" started-at="2023-01-24T17:09:29 IST" finished-at="2023-01-24T17:10:11 IST">
-      <class name="Bus.Bus_Confirmation_008_Test">
-        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:Bus.Bus_Confirmation_008_Test@4d50efb8]" name="browserSetUp" is-config="true" duration-ms="8578" started-at="2023-01-24T17:09:30 IST" finished-at="2023-01-24T17:09:38 IST">
+    <test name="Default test" duration-ms="20397" started-at="2023-01-25T09:50:38 IST" finished-at="2023-01-25T09:50:59 IST">
+      <class name="Bus.Bus_Oneway_009_Test">
+        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:Bus.Bus_Oneway_009_Test@2a556333]" name="browserSetUp" is-config="true" duration-ms="7051" started-at="2023-01-25T09:50:39 IST" finished-at="2023-01-25T09:50:46 IST">
           <params>
             <param index="0">
               <value>
@@ -69,11 +48,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- browserSetUp -->
-        <test-method status="PASS" signature="oneWayFromTextField([Ljava.lang.String;)[pri:0, instance:Bus.Bus_Confirmation_008_Test@4d50efb8]" name="oneWayFromTextField" duration-ms="31786" started-at="2023-01-24T17:09:38 IST" data-provider="data" finished-at="2023-01-24T17:10:10 IST">
+        <test-method status="PASS" signature="oneWaySystemTesting([Ljava.lang.String;)[pri:0, instance:Bus.Bus_Oneway_009_Test@2a556333]" name="oneWaySystemTesting" duration-ms="11707" started-at="2023-01-25T09:50:46 IST" data-provider="data" finished-at="2023-01-25T09:50:58 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@7a55f148]]>
+                <![CDATA[[Ljava.lang.String;@5dc3fcb7]]>
               </value>
             </param>
           </params>
@@ -88,36 +67,15 @@
               <![CDATA[Landed Succesfully to the Bus Result Page of the application]]>
             </line>
             <line>
-              <![CDATA[Selected the boarding point]]>
-            </line>
-            <line>
-              <![CDATA[firstname entered correctly]]>
-            </line>
-            <line>
-              <![CDATA[Age entered correctly]]>
-            </line>
-            <line>
-              <![CDATA[phoneNumber entered correctly]]>
-            </line>
-            <line>
-              <![CDATA[Email entered correctly]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on Proceed button]]>
-            </line>
-            <line>
-              <![CDATA[clicked on confirm button]]>
-            </line>
-            <line>
-              <![CDATA[clicked on pay now button]]>
+              <![CDATA[clicked on the view seats button]]>
             </line>
           </reporter-output>
-        </test-method> <!-- oneWayFromTextField -->
-        <test-method status="PASS" signature="browserTermination()[pri:0, instance:Bus.Bus_Confirmation_008_Test@4d50efb8]" name="browserTermination" is-config="true" duration-ms="925" started-at="2023-01-24T17:10:10 IST" finished-at="2023-01-24T17:10:11 IST">
+        </test-method> <!-- oneWaySystemTesting -->
+        <test-method status="PASS" signature="browserTermination()[pri:0, instance:Bus.Bus_Oneway_009_Test@2a556333]" name="browserTermination" is-config="true" duration-ms="763" started-at="2023-01-25T09:50:58 IST" finished-at="2023-01-25T09:50:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserTermination -->
-      </class> <!-- Bus.Bus_Confirmation_008_Test -->
+      </class> <!-- Bus.Bus_Oneway_009_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

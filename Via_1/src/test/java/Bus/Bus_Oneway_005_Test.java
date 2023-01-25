@@ -17,7 +17,7 @@ import org.testng.annotations.Test;
 import Generic_Libraries.*;
 import pom_repo.HomePage;
 
-public class Bus_Oneway005_Test extends BaseClass {
+public class Bus_Oneway_005_Test extends BaseClass {
 	public class Bus_Oneway_004Test extends BaseClass {
 		@DataProvider()
 		public String[][] data() {
