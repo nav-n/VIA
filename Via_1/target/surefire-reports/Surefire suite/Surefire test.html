@@ -1,0 +1,227 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 25 11:30:12 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>258 seconds (258341 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Bus.Bus_Oneway_002_Test.negativeFromTextField()'><b>negativeFromTextField</b><br>Test class: Bus.Bus_Oneway_002_Test<br>Parameters: [Ljava.lang.String;@94e51e8<br/>
+<a href="#Output-1964117592" onClick='toggleBox("Output-1964117592", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1964117592" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1964117592">
+Data Entered Successfully in fromTextField in homePage<br/>
+No Source Specified<br/>
+Error message is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>Bus.Bus_Oneway_002_Test@30b8a058</td></tr>
+<tr>
+<td title='Bus.Bus_Oneway_004_Test.negativeToTextField()'><b>negativeToTextField</b><br>Test class: Bus.Bus_Oneway_004_Test<br>Parameters: [Ljava.lang.String;@1d901f20<br/>
+<a href="#Output-468797188" onClick='toggleBox("Output-468797188", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-468797188" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-468797188">
+Data entered successfully in fromTextBox<br/>
+Data Entered Successfully in ToTextField<br/>
+No Destination Specified<br/>
+Error message is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>Bus.Bus_Oneway_004_Test@4bbfb90a</td></tr>
+<tr>
+<td title='Bus.Bus_Confirmation_008_Test.oneWayFromTextField()'><b>oneWayFromTextField</b><br>Test class: Bus.Bus_Confirmation_008_Test<br>Parameters: [Ljava.lang.String;@534ca02b<br/>
+<a href="#Output-181326224" onClick='toggleBox("Output-181326224", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-181326224" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-181326224">
+Data Entered Successfully in fromTextField in homePage<br/>
+Data Entered Successfully in toTextField in homePage<br/>
+Landed Succesfully to the Bus Result Page of the application<br/>
+Selected the boarding point<br/>
+firstname entered correctly<br/>
+Age entered correctly<br/>
+phoneNumber entered correctly<br/>
+Email entered correctly<br/>
+Clicked on Proceed button<br/>
+clicked on confirm button<br/>
+clicked on pay now button, Error message displayed<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>Bus.Bus_Confirmation_008_Test@a7e666</td></tr>
+<tr>
+<td title='Bus.Bus_Oneway_001_Test.oneWayFromTextField()'><b>oneWayFromTextField</b><br>Test class: Bus.Bus_Oneway_001_Test<br>Parameters: [Ljava.lang.String;@5292ceca<br/>
+<a href="#Output-721395199" onClick='toggleBox("Output-721395199", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-721395199" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-721395199">
+Data Entered Successfully in fromTextField in homePage<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>Bus.Bus_Oneway_001_Test@68bbe345</td></tr>
+<tr>
+<td title='Bus.Bus_Result_007_Test.oneWayFromTextField()'><b>oneWayFromTextField</b><br>Test class: Bus.Bus_Result_007_Test<br>Parameters: [Ljava.lang.String;@314b7945<br/>
+<a href="#Output-1012975233" onClick='toggleBox("Output-1012975233", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1012975233" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1012975233">
+Data Entered Successfully in fromTextField in homePage<br/>
+Data Entered Successfully in toTextField in homePage<br/>
+Landed Succesfully to the Bus Result Page of the application<br/>
+Selected the boarding point<br/>
+Clicked on proceedWithSeats button<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>Bus.Bus_Result_007_Test@5e853265</td></tr>
+<tr>
+<td title='Bus.Bus_Oneway_009_Test.oneWaySystemTesting()'><b>oneWaySystemTesting</b><br>Test class: Bus.Bus_Oneway_009_Test<br>Parameters: [Ljava.lang.String;@28157173<br/>
+<a href="#Output-527658240" onClick='toggleBox("Output-527658240", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-527658240" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-527658240">
+Data Entered Successfully in fromTextField in homePage<br/>
+Data Entered Successfully in toTextField in homePage<br/>
+Landed Succesfully to the Bus Result Page of the application<br/>
+clicked on the view seats button<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>Bus.Bus_Oneway_009_Test@5a8806ef</td></tr>
+<tr>
+<td title='Bus.Bus_Oneway_Place_Test.oneWaySystemTesting()'><b>oneWaySystemTesting</b><br>Test class: Bus.Bus_Oneway_Place_Test<br>Parameters: [Ljava.lang.String;@67f9cb52<br/>
+<a href="#Output-547305607" onClick='toggleBox("Output-547305607", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-547305607" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-547305607">
+Data Entered Successfully in fromTextField in homePage<br/>
+Data Entered Successfully in toTextField in homePage<br/>
+Landed Succesfully to the Bus Result Page of the application<br/>
+Selected the boarding point<br/>
+firstname entered correctly<br/>
+Age entered correctly<br/>
+phoneNumber entered correctly<br/>
+Email entered correctly<br/>
+Clicked on Proceed button<br/>
+clicked on confirm button<br/>
+clicked on pay now button<br/>
+clicked on pay now button, Error message displayed<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>Bus.Bus_Oneway_Place_Test@6c49835d</td></tr>
+<tr>
+<td title='Bus.Bus_Oneway_003_Test.oneWayToTextField()'><b>oneWayToTextField</b><br>Test class: Bus.Bus_Oneway_003_Test<br>Parameters: [Ljava.lang.String;@23a918c7<br/>
+<a href="#Output-1084698317" onClick='toggleBox("Output-1084698317", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1084698317" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1084698317">
+Mumbai<br/>
+Data Entered Successfully in toTextField in homePage<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>Bus.Bus_Oneway_003_Test@7494e528</td></tr>
+<tr>
+<td title='Bus.Bus_Oneway_006_Test.searchButton()'><b>searchButton</b><br>Test class: Bus.Bus_Oneway_006_Test<br/>
+<a href="#Output-1223357487" onClick='toggleBox("Output-1223357487", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1223357487" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1223357487">
+No Source Specified<br/>
+Error message is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>Bus.Bus_Oneway_006_Test@9660f4e</td></tr>
+<tr>
+<td title='Bus.Bus_Oneway_005_Test$Bus_Oneway_004Test.searchFlights()'><b>searchFlights</b><br>Test class: Bus.Bus_Oneway_005_Test$Bus_Oneway_004Test<br>Parameters: [Ljava.lang.String;@66c38e51</td>
+<td></td>
+<td>21</td>
+<td>Bus.Bus_Oneway_005_Test$Bus_Oneway_004Test@7c29daf3</td></tr>
+</table><p>
+</body>
+</html>
