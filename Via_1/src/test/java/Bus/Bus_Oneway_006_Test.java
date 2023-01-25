@@ -9,7 +9,7 @@ import Generic_Libraries.*;
 import pom_repo.HomePage;
 
 public class Bus_Oneway_006_Test extends BaseClass{
-	@Test
+	@Test(groups = "functionality")
 	public void searchButton() {
 		explicitWait.until(ExpectedConditions.elementToBeClickable(homePage.getBusNavBar()));
 		homePage.getBusNavBar().click();

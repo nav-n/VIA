@@ -18,7 +18,7 @@ public class Bus_Oneway_002_Test extends BaseClass {
 		return info;
 	}
 
-	@Test(dataProvider = "data")
+	@Test(dataProvider = "data", groups = "functionality")
 	public void negativeFromTextField(String data[]) {
 		explicitWait.until(ExpectedConditions.elementToBeClickable(homePage.getBusNavBar()));
 		homePage.getBusNavBar().click();

@@ -23,7 +23,7 @@ public class Bus_Confirmation_008_Test extends BaseClass {
 		return info;
 	}
 
-	@Test(dataProvider = "data")
+	@Test(dataProvider = "data",groups = "functionality")
 	public void oneWayFromTextField(String data[]) throws InterruptedException {
 		// Step1:Clicking on FromTextField.
 		explicitWait.until(ExpectedConditions.elementToBeClickable(homePage.getBusNavBar()));

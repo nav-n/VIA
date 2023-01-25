@@ -19,7 +19,7 @@ public class Bus_Oneway_003_Test extends BaseClass {
 		return info;
 	}
 
-	@Test(dataProvider = "data")
+	@Test(dataProvider = "data",groups = "functionality")
 	public void oneWayToTextField(String data[]) {
 		// Step1:Clicking on FromTextField.
 		explicitWait.until(ExpectedConditions.elementToBeClickable(homePage.getBusNavBar()));

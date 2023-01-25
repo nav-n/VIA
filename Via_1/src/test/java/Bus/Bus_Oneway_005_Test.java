@@ -25,7 +25,7 @@ public class Bus_Oneway_005_Test extends BaseClass {
 			return info;
 		}
 
-		@Test(dataProvider = "data")
+		@Test(dataProvider = "data",groups = "functionality")
 		public void searchFlights(String data[]) throws InterruptedException {
 			explicitWait.until(ExpectedConditions.elementToBeClickable(homePage.getBusNavBar()));
 			homePage.getBusNavBar().click();
