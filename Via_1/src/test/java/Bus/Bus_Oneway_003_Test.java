@@ -30,7 +30,7 @@ public class Bus_Oneway_003_Test extends BaseClass {
 				"Bus Page Is not Displayed");
 		Reporter.log("Landed Succesfully to the Bus Home Page of the application", true);*/
 		busPage.getToTextBox().clear();
-		String toPlace = ReadData.fromExcel("Naveen", 20, 2);
+		String toPlace = data[1];
 		busPage.getToTextBox().clear();
 		busPage.getToTextBox().sendKeys(toPlace);
 		if (toPlace.equalsIgnoreCase("Bangalore")) {

@@ -30,7 +30,7 @@ public class Bus_Oneway_002_Test extends BaseClass {
 		// Step1:Clicking on FromTextField.
 		busPage.getFromTextBox().clear();
 		// Step2:Typing invalid characters.
-		String fromPlace = ReadData.fromExcel("Naveen", 5, 1);
+		String fromPlace = data[1];
 		busPage.getFromTextBox().sendKeys(fromPlace);
 		String enteredValue = busPage.getFromTextBox().getAttribute("value");
 		Assert.assertEquals(enteredValue, fromPlace, "FromTextField data is not entered properly");

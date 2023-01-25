@@ -181,6 +181,10 @@ public class Bus_Oneway_Place_Test extends BaseClass {
 		explicitWait.until(ExpectedConditions.elementToBeClickable(confirmpage.getPayNowButton()));
 		confirmpage.getPayNowButton().click();	
 		Reporter.log("clicked on pay now button");
+		explicitWait.until(ExpectedConditions.visibilityOf(confirmpage.getPayNowErrorMessage()));
+		String expectedPayNowErrorMsg = confirmpage.getPayNowErrorMessage().getText();
+		Assert.assertEquals(expectedPayNowErrorMsg, ReadData.fromPropertyFile("actualPaynowErrorMessage"),"did not click on PayNow button");
+		Reporter.log("clicked on pay now button, Error message displayed",true);
 		}
 		
 	

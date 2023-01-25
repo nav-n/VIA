@@ -123,5 +123,7 @@ public class Bus_Result_007_Test extends BaseClass {
 
 		}
 		busResultPage.getProceedWithSeatsButton().click();
+		explicitWait.until(ExpectedConditions.visibilityOf(confirmpage.getGuestDetails()));
+		Reporter.log("Clicked on proceedWithSeats button");
 	}
 }

@@ -27,7 +27,15 @@ public class ConfirmBookingPage {
 	@FindBy(xpath = "//div[@data-paymode='WALLET']") private WebElement walletPayment;
 	@FindBy(xpath = "//div[@data-paymode='DC']") private WebElement debitCardPayment;
 	@FindBy(xpath = "//div[@data-paymode='CC']") private WebElement creditCardPayment;
+	@FindBy(xpath = "//div[text()='Please select a valid option / enter a valid card']") private WebElement payNowErrorMessage;
+	@FindBy(xpath = "(//span[text()='Guest Details'])[1]")private WebElement guestDetails;
 	
+	public WebElement getGuestDetails() {
+		return guestDetails;
+	}
+	public WebElement getPayNowErrorMessage() {
+		return payNowErrorMessage;
+	}
 	public WebElement getTitleDropdown() {
 		return TitleDropdown;
 	}

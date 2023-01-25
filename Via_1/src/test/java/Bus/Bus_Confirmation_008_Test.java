@@ -112,17 +112,14 @@ public class Bus_Confirmation_008_Test extends BaseClass {
 			}
 		}
 		js.executeScript("window.scrollBy(0,300)");
-		/*String enteredSeatValue = busResultPage.getAvailableSeat().getAttribute("value");
-		Assert.assertEquals(enteredSeatValue, busResultPage.getAvailableSeat(),"Select a valid seat" );
-		Reporter.log("Selected the seat",true);*/
 		Select select = new Select(busResultPage.getBoardingPoint());
-		select.selectByIndex(5);
+		select.selectByIndex(1);
 		Reporter.log("Selected the boarding point",true);		
 		try {
 			WebElement droppingPoint = driver.findElement(By.xpath("//h3[text()='Choose Dropping Point']"));
 			Select selectDroppingPoint = new Select(busResultPage.getDroppingPoint());
 			droppingPoint.click();
-			selectDroppingPoint.selectByIndex(3);
+			selectDroppingPoint.selectByIndex(1);
 		}catch(NoSuchElementException e) {
 			
 		}
@@ -166,18 +163,26 @@ public class Bus_Confirmation_008_Test extends BaseClass {
 		String paymentType = data[8];
 		if (paymentType.equalsIgnoreCase("netbanking")) {
 			confirmpage.getNetBankingPayment().click();
+			Reporter.log("selected netBanking option");
 		} else if (paymentType.equalsIgnoreCase("creditcard")) {
 			confirmpage.getCreditCardPayment().click();
+			Reporter.log("selected creditCard option");
 		} else if (paymentType.equalsIgnoreCase("debitcard")) {
 			confirmpage.getDebitCardPayment().click();
+			Reporter.log("selected debitCard option");
 		} else if (paymentType.equalsIgnoreCase("wallet")) {
 			confirmpage.getWalletPayment().click();
+			Reporter.log("selected wallet option");
 		} else if (paymentType.equalsIgnoreCase("UPI")) {
 			confirmpage.getUpiPayment().click();
+			Reporter.log("selected UPI option");
 		}
 		explicitWait.until(ExpectedConditions.elementToBeClickable(confirmpage.getPayNowButton()));
 		confirmpage.getPayNowButton().click();	
-		Reporter.log("clicked on pay now button");
+		explicitWait.until(ExpectedConditions.visibilityOf(confirmpage.getPayNowErrorMessage()));
+		String expectedPayNowErrorMsg = confirmpage.getPayNowErrorMessage().getText();
+		Assert.assertEquals(expectedPayNowErrorMsg, ReadData.fromPropertyFile("actualPaynowErrorMessage"),"did not click on PayNow button");
+		Reporter.log("clicked on pay now button, Error message displayed",true);
 		}
 
 }

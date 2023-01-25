@@ -6,7 +6,7 @@
 			<class name="Bus.Bus_Oneway_001_Test" />
 			<class name="Bus.Bus_Oneway_002_Test" />
 			<class name="Bus.Bus_Oneway_003_Test" />
-			<class name="Bus.Bus_Oneway_004Test" />
+			<class name="Bus.Bus_Oneway_004_Test" />
 			<class name="Bus.Bus_Oneway_005_Test" />
 			<class name="Bus.Bus_Oneway_006_Test" />
 			<class name="Bus.Bus_Result_007_Test" />

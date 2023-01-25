@@ -3,11 +3,18 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
+      <class name="Bus.Bus_Confirmation_008_Test">
+        <methods>
+          <include name="browserTermination"/>
+          <include name="oneWayFromTextField" invocation-numbers="0"/>
+          <include name="browserSetUp"/>
+        </methods>
+      </class> <!-- Bus.Bus_Confirmation_008_Test -->
       <class name="Bus.Bus_Oneway_Place_Test">
         <methods>
           <include name="browserTermination"/>
           <include name="browserSetUp"/>
-          <include name="oneWayFromTextField" invocation-numbers="1"/>
+          <include name="oneWaySystemTesting" invocation-numbers="0"/>
         </methods>
       </class> <!-- Bus.Bus_Oneway_Place_Test -->
     </classes>

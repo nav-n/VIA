@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Bus.Bus_Oneway_009_Test">
+      <class name="Bus.Bus_Oneway_Place_Test">
         <methods>
           <include name="browserTermination"/>
-          <include name="oneWaySystemTesting"/>
           <include name="browserSetUp"/>
+          <include name="oneWaySystemTesting" invocation-numbers="0"/>
         </methods>
-      </class> <!-- Bus.Bus_Oneway_009_Test -->
+      </class> <!-- Bus.Bus_Oneway_Place_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
